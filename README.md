@@ -1,7 +1,6 @@
-# Welcome to my HTML Web Developer repository!
+# Welcome to my Web repository!
 
-I'm adding here my HTML5, CSS codes
+I'm adding here some codes
 
-Feel free to take a look
+Feel free to take a look.
 
-Lucas Moraes.

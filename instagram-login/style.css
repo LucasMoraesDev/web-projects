@@ -39,7 +39,9 @@ body {
 .instagram-continue {
     display: flex;
     align-items: center;
+    /* horizontal */
     justify-content: space-around;
+    /* vertical */
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -51,9 +53,9 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 90%;
+    width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgrey;
+    border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
@@ -140,9 +142,6 @@ body {
     body {
         background-color: #ffffff;
     }
-    .group {
-        border: 1px solid transparent;
-    }
     .instagram-wrapper {
         width: 90%;
     }
@@ -150,6 +149,9 @@ body {
         display: none;
     }
     .instagram-continue {
-        width: 50%;
+        width: 100%;
+    }
+    .group {
+        border: 1px solid transparent;
     }
 }
